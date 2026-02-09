@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Codystar:wght@300;400&family=Manrope:wght@200..800&family=Monoton&family=Mozilla+Headline:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pixelify+Sans:wght@400..700&family=Playwrite+NO:wght@100..400&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top left , #9061bd , #eb333f);
+     min-height: 800px;
+     font-family: "Manrope", sans-serif;
+  
+}
+
+
+main {
+
+    width: 70%;
+    margin: 100px auto;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    box-shadow: 1px 1px 30px black;
+    border-radius: 20px;
+   
+}
+
+
+.player-0{
+
+    width: 50%;
+    text-align: center;
+    padding: 70px 0px;
+ background-color: rgba(255, 255, 255, 0.32);
+  border-radius: 20px 0px 0px 20px;
+
+}
+
+.player-1{
+   
+    width: 50%;
+    text-align: center;
+    padding: 70px 0px;
+    background-color: rgba(255, 255, 255, 0.32);
+     border-radius: 0px 20px 20px 0px;
+    
+}
+
+.active{
+      background-color: rgba(255, 255, 255, 0.62);
+}
+.active .title{
+    font-weight: 500;
+}
+
+.active .score-0 {
+    font-weight: 500;
+
+}
+
+.active .score-1 {
+    font-weight: 500;
+
+}
+
+
+.title{
+    font-size: 50px;  
+    font-weight: 300;
+}
+
+ .score-1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #b62450;
+
+}
+
+.score-0{
+     font-size: 60px;
+    font-weight: 300;
+    color: #b62450;
+}
+
+
+.current-container{
+ 
+    width: 30%;
+    margin: 90px auto 0px auto;
+    padding: 2px 10px;
+    background-color: #b6245097;
+    color: white;
+    font-size: 20px;
+}
+
+.active .current-container{
+        background-color: #b62450;
+}
+
+.reset , .hold , .roll{
+    position: absolute;
+}
+
+img{
+    position: absolute;
+     left: 485px;
+    top: 150px;
+}
+
+.reset {
+    left: 450px;
+    top: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.797);
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.roll {
+    left: 450px;
+    top: 400px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.797);
+    font-size: 18px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.hold {
+    left: 470px;
+    top: 500px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.797);
+    font-size: 18px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
