@@ -136,3 +136,13 @@ img{
     padding: 10px 25px;
     cursor: pointer;
 }
+
+
+.hidden{
+display: none;
+}
+
+.winner {
+    background-color: rgba(0, 0, 0, 0.62);
+}
+
